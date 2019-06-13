@@ -108,4 +108,4 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 
 // changes the quote automatically by calling the print function every 15 seconds.
 // could be done better. calls function even if you've clicked the button within the 15 seconds
-window.setInterval(printQuote, 15000);
+setInterval(printQuote, 15000);
